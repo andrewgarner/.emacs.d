@@ -11,7 +11,6 @@
 ;; the various modules needed.
 
 ;;; Code:
-
 (defvar surefire-dir (file-name-directory load-file-name)
   "The root dir of the Emacs configuration.")
 
@@ -45,7 +44,7 @@
        (add-to-list 'load-path name)
        (surefire-add-subfolders-to-load-path name)))))
 
-;; add directories to Emacs's `load-path'
+;; add directories to Emacs’ `load-path'
 (add-to-list 'load-path surefire-core-dir)
 (add-to-list 'load-path surefire-modules-dir)
 (add-to-list 'load-path surefire-themes-dir)
@@ -73,6 +72,6 @@
 
 ;; the modules
 (message "Loading modules...")
-(require 'surefire-modules)
+(load surefire-modules-file)
 
 ;;; init.el ends here

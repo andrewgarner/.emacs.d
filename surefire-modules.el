@@ -12,13 +12,13 @@
 
 ;;; Code:
 
-;; Modules
+;; modules
 
-;; Project management
+;; project management
 
-;; Workspace management
+;; workspace management
 
-;; Languages
+;; languages
 
 (provide 'surefire-modules)
 ;;; surefire-modules.el ends here
