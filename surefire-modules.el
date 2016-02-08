@@ -20,6 +20,7 @@
 ;; workspace management
 
 ;; languages
+(require 'surefire-programming)
 
 (provide 'surefire-modules)
 ;;; surefire-modules.el ends here
