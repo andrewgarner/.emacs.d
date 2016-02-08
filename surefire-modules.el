@@ -26,6 +26,7 @@
 (require 'surefire-css)
 (require 'surefire-ruby)
 (require 'surefire-scss)
+(require 'surefire-yaml)
 
 (provide 'surefire-modules)
 ;;; surefire-modules.el ends here
