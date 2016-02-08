@@ -23,7 +23,9 @@
 ;; workspace management
 
 ;; languages
+(require 'surefire-css)
 (require 'surefire-ruby)
+(require 'surefire-scss)
 
 (provide 'surefire-modules)
 ;;; surefire-modules.el ends here
