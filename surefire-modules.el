@@ -15,6 +15,7 @@
 ;; modules
 (require 'surefire-linum)
 (require 'surefire-linum-relative)
+(require 'surefire-magit)
 
 ;; project management
 (require 'surefire-projectile)
