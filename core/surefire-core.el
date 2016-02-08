@@ -11,5 +11,11 @@
 
 ;;; Code:
 
+(defun surefire-wrap-with (s)
+  "Create a wrapper function for smartparens using S."
+  `(lambda (&optional arg)
+     (interactive "P")
+     (sp-wrap-with-pair ,s)))
+
 (provide 'surefire-core)
 ;;; surefire-core.el ends here

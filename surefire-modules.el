@@ -25,6 +25,7 @@
 ;; languages
 (require 'surefire-css)
 (require 'surefire-cucumber)
+(require 'surefire-lisp)
 (require 'surefire-markdown)
 (require 'surefire-ruby)
 (require 'surefire-scss)
