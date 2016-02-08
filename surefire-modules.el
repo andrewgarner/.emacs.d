@@ -13,6 +13,8 @@
 ;;; Code:
 
 ;; modules
+(require 'surefire-linum)
+(require 'surefire-linum-relative)
 
 ;; project management
 (require 'surefire-projectile)
