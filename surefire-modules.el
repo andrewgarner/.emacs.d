@@ -15,6 +15,7 @@
 ;; modules
 
 ;; project management
+(require 'surefire-projectile)
 
 ;; workspace management
 
