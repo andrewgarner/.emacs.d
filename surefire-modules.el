@@ -24,6 +24,7 @@
 
 ;; languages
 (require 'surefire-css)
+(require 'surefire-cucumber)
 (require 'surefire-ruby)
 (require 'surefire-scss)
 (require 'surefire-yaml)
