@@ -23,6 +23,7 @@
 ;; workspace management
 
 ;; languages
+(require 'surefire-coffee)
 (require 'surefire-css)
 (require 'surefire-cucumber)
 (require 'surefire-emacs-lisp)
