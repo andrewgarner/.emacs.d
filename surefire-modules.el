@@ -26,6 +26,7 @@
 (require 'surefire-css)
 (require 'surefire-cucumber)
 (require 'surefire-emacs-lisp)
+(require 'surefire-go)
 (require 'surefire-lisp)
 (require 'surefire-markdown)
 (require 'surefire-ruby)
