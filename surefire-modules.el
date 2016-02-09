@@ -13,6 +13,7 @@
 ;;; Code:
 
 ;; modules
+(require 'surefire-dired)
 (require 'surefire-linum)
 (require 'surefire-linum-relative)
 (require 'surefire-magit)
