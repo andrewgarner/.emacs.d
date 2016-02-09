@@ -16,6 +16,7 @@
 (require 'surefire-linum)
 (require 'surefire-linum-relative)
 (require 'surefire-magit)
+(require 'surefire-yasnippet)
 
 ;; project management
 (require 'surefire-projectile)
