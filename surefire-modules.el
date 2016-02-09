@@ -27,6 +27,7 @@
 (require 'surefire-cucumber)
 (require 'surefire-emacs-lisp)
 (require 'surefire-go)
+(require 'surefire-json)
 (require 'surefire-lisp)
 (require 'surefire-markdown)
 (require 'surefire-ruby)
