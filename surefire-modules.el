@@ -34,6 +34,7 @@
 (require 'surefire-markdown)
 (require 'surefire-ruby)
 (require 'surefire-scss)
+(require 'surefire-sh)
 (require 'surefire-yaml)
 
 (provide 'surefire-modules)
