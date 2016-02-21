@@ -13,6 +13,7 @@
 
 (require 'surefire-company)
 (require 'surefire-programming)
+(require 'surefire-rspec)
 (require 'surefire-rubocop)
 
 (surefire-require-packages '(ruby-tools inf-ruby yari))
