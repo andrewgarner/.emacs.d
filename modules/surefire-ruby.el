@@ -16,7 +16,7 @@
 (require 'surefire-rspec)
 (require 'surefire-rubocop)
 
-(surefire-require-packages '(bundler ruby-block ruby-hash-syntax ruby-tools inf-ruby yari))
+(surefire-require-packages '(bundler ruby-block ruby-hash-syntax ruby-refactor ruby-tools inf-ruby yari))
 
 (add-to-list 'auto-mode-alist '("Gemfile\\'" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Guardfile\\'" . ruby-mode))
@@ -46,6 +46,8 @@
 
        (highlight-indentation-mode)
        (highlight-indentation-current-column-mode)
+
+       (ruby-refactor-mode-launch)
 
        (let ((map ruby-mode-map))
          (define-key map (kbd "C-j") 'newline-and-indent)
