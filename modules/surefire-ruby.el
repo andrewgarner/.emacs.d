@@ -16,7 +16,7 @@
 (require 'surefire-rspec)
 (require 'surefire-rubocop)
 
-(surefire-require-packages '(bundler ruby-block ruby-hash-syntax ruby-refactor ruby-tools inf-ruby yari))
+(surefire-require-packages '(bundler ruby-block ruby-end ruby-hash-syntax ruby-refactor ruby-tools inf-ruby yari))
 
 (add-to-list 'auto-mode-alist '("Gemfile\\'" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Guardfile\\'" . ruby-mode))
