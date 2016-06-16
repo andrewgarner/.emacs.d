@@ -17,12 +17,8 @@
   (surefire-require-package 'zenburn-theme)
   (require 'zenburn-theme)
 
-  ;; enable ligatures
-  (when (functionp 'mac-auto-operator-composition-mode)
-    (mac-auto-operator-composition-mode))
-
   ;; set default font
-  (set-default-font "Fira Code 14")
+  (set-default-font "SF Mono 14")
 
   ;; enable emoji font as fallback
   (set-fontset-font t 'unicode "Apple Color Emoji" nil 'prepend)
