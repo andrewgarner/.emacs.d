@@ -66,9 +66,9 @@
 (require 'surefire-editor)
 (require 'surefire-global-keybindings)
 
-;; OSX specific settings
+;; macOS specific settings
 (when (eq system-type 'darwin)
-  (require 'surefire-osx))
+  (require 'surefire-macos))
 
 ;; the modules
 (message "Loading modules...")

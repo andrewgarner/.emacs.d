@@ -1,4 +1,4 @@
-;;; surefire-osx.el --- Emacs: OSX specific settings.
+;;; surefire-macos.el --- Emacs: macOS specific settings.
 ;;
 ;; Copyright © 2016 SureFireThing Ltd
 ;;
@@ -7,7 +7,7 @@
 
 ;;; Commentary:
 
-;; Some OSX specific stuff.
+;; Some macOS specific stuff.
 
 ;;; Code:
 
@@ -40,5 +40,5 @@
   (surefire-require-package 'exec-path-from-shell)
   (exec-path-from-shell-initialize))
 
-(provide 'surefire-osx)
-;;; surefire-osx.el ends here
+(provide 'surefire-macos)
+;;; surefire-macos.el ends here
