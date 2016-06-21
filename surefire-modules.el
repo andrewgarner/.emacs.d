@@ -29,6 +29,7 @@
 (require 'surefire-coffee)
 (require 'surefire-css)
 (require 'surefire-cucumber)
+(require 'surefire-dockerfile)
 (require 'surefire-emacs-lisp)
 (require 'surefire-go)
 (require 'surefire-js)
