@@ -3,7 +3,7 @@
 ;; Copyright © 2016 SureFireThing Ltd
 ;;
 ;; Author: Andrew Garner <andrew@surefirething.co.uk>
-;; URL: https://github.com/surefire/.emacs.d
+;; URL: https://github.com/andrewgarner/.emacs.d
 
 ;;; Commentary:
 
