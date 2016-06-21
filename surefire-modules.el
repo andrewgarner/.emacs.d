@@ -27,6 +27,7 @@
 
 ;; languages
 (require 'surefire-coffee)
+(require 'surefire-conf)
 (require 'surefire-css)
 (require 'surefire-cucumber)
 (require 'surefire-dockerfile)
