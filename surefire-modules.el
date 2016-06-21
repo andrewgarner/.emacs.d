@@ -40,6 +40,7 @@
 (require 'surefire-ruby)
 (require 'surefire-scss)
 (require 'surefire-sh)
+(require 'surefire-web)
 (require 'surefire-yaml)
 
 (provide 'surefire-modules)
