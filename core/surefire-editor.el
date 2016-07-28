@@ -261,6 +261,7 @@ The body of the advice is in BODY."
 (add-hook 'dired-mode-hook 'diff-hl-dired-mode)
 
 ;; easy-kill
+(surefire-require-package 'easy-kill)
 (global-set-key [remap kill-ring-save] 'easy-kill)
 (global-set-key [remap mark-sexp] 'easy-mark)
 
