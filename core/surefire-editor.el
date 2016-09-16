@@ -186,19 +186,18 @@ The body of the advice is in BODY."
                    empty)))
 
 ;; flyspell setup
-(surefire-require-package 'flyspell)
+(require 'flyspell)
 (diminish 'flyspell-mode)
 (setq ispell-program-name "aspell" ; use aspell instead of ispell
       ispell-extra-args '("--sug-mode=ultra"))
 
-(defun surefire-enable-flyspell ()
-  "Enable command `flyspell-mode' if `surefire-flyspell' is not nil."
-  (when (and surefire-flyspell (executable-find ispell-program-name))
-    (flyspell-mode +1)))
-
 (defun surefire-cleanup-maybe ()
   "Invoke `whitespace-cleanup'."
   (whitespace-cleanup))
+
+(defun surefire-enable-flyspell ()
+  "Enable `flyspell-mode'."
+    (flyspell-mode +1))
 
 (defun surefire-enable-whitespace ()
   "Enable `whitespace-mode'."
