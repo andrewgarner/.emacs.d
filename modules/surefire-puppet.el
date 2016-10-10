@@ -12,10 +12,12 @@
 ;;; Code:
 
 (require 'surefire-programming)
-(surefire-require-package 'puppet-mode)
+(surefire-require-packages '(flymake-easy flymake-puppet puppet-mode))
 
 (defun surefire-puppet-mode-defaults ()
-  (surefire-prog-mode-defaults))
+  (surefire-prog-mode-defaults)
+
+  (flymake-puppet-load))
 
 (setq surefire-puppet-mode-hook 'surefire-puppet-mode-defaults)
 
