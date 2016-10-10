@@ -14,6 +14,7 @@
 
 ;; modules
 (require 'surefire-dired)
+(require 'surefire-git)
 (require 'surefire-helm)
 (require 'surefire-linum)
 (require 'surefire-linum-relative)
