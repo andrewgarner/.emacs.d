@@ -38,6 +38,7 @@
 (require 'surefire-json)
 (require 'surefire-lisp)
 (require 'surefire-markdown)
+(require 'surefire-puppet)
 (require 'surefire-ruby)
 (require 'surefire-scss)
 (require 'surefire-sh)
